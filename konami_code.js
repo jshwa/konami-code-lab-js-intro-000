@@ -18,5 +18,5 @@ function isKonami(input) {
 }
 
 function init() {
-  document.body.addEventListener('keydown', isKonami())
+  document.body.addEventListener('keydown', key)
 }
