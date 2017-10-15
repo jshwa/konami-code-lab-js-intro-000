@@ -2,7 +2,7 @@ const code = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65]
 let index = 0
 
 function isKonami(input) {
-  const key = parseInt(input.charCode);
+  const key = parseInt(input.detail || input.which);
 
   if (key === code[index]) {
     index++;
